@@ -1,0 +1,23 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MedFlow Toolkit</title><style>
+:root{--ink:#1f2a37;--mut:#6b7280;--line:#e5e7eb;--bg:#f6f7f9;--pri:#0f766e;--pri2:#ccfbf1;--red:#b91c1c;--yel:#b45309;--grn:#15803d}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+header{background:#fff;border-bottom:1px solid var(--line);padding:14px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+header h1{font-size:18px;margin:0}header .tag{background:var(--pri2);color:var(--pri);border-radius:99px;padding:2px 10px;font-size:12px;font-weight:600}
+header a{margin-left:auto;color:var(--pri);text-decoration:none;font-size:13px}
+main{max-width:1180px;margin:18px auto;padding:0 18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+.card h2{font-size:14px;margin:0 0 10px}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:end}.row label{display:flex;flex-direction:column;font-size:12px;color:var(--mut);gap:3px}
+input,select,button{font:inherit;padding:6px 9px;border:1px solid #cbd5e1;border-radius:7px;background:#fff}
+button{cursor:pointer;background:var(--pri);color:#fff;border-color:var(--pri);font-weight:600}button.sec{background:#fff;color:var(--pri)}button.sm{padding:2px 8px;font-size:12px}
+button.dng{background:#fff;color:var(--red);border-color:#fca5a5}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}th{background:#f1f5f9;font-size:12px;color:#475569}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}tr.tot td{font-weight:700;background:#f8fafc}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}.kpi{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.kpi b{display:block;font-size:20px}.kpi span{font-size:12px;color:var(--mut)}
+.pill{padding:1px 8px;border-radius:99px;font-size:11px;font-weight:700}.p-red{background:#fee2e2;color:var(--red)}.p-yel{background:#fef3c7;color:var(--yel)}.p-grn{background:#dcfce7;color:var(--grn)}.p-gry{background:#e5e7eb;color:#374151}
+.tabs{display:flex;gap:6px;margin-bottom:12px}.tabs button{background:#fff;color:var(--ink);border-color:var(--line)}.tabs button.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+.hint{color:var(--mut);font-size:12px}.hide{display:none}.empty{padding:30px;text-align:center;color:var(--mut)}
+.sheet{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px 26px}.sheet h3{margin:0 0 2px;font-size:18px}
+@media print{body{background:#fff}header,.noprint,.card.noprint{display:none!important}main{margin:0;max-width:none}.sheet{border:0;padding:0}}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}.g a{text-decoration:none;color:inherit}.g .card{height:100%}.g h2{font-size:16px;color:var(--pri)}</style></head><body><header><h1>MedFlow Toolkit</h1><span class="tag">dados fictícios</span></header><main><p>Ferramentas de gestão hospitalar que rodam inteiras no navegador (HTML único, sem servidor). Cada uma abre com dados de demonstração gerados artificialmente; também aceita CSVs próprios.</p><div class="g"><a href="tools/01_estado_de_conta.html"><div class="card"><h2>Estado de conta por pagador</h2><p>Gera o extrato de contas por pagador, com antiguidade, PDF e histórico.</p></div></a><a href="tools/02_gerador_de_orcamento.html"><div class="card"><h2>Gerador de orçamento cirúrgico</h2><p>Pacotes, margem e desconto; emite orçamento em PDF.</p></div></a><a href="tools/03_supply_estoque_e_compras.html"><div class="card"><h2>Supply: estoque e ordens de compra</h2><p>Semáforo de cobertura, contagem física e ordens por fornecedor.</p></div></a><a href="tools/04_forecast_pl.html"><div class="card"><h2>Forecast do P&L do mês</h2><p>Projeção do mês em curso com premissas ajustáveis.</p></div></a><a href="tools/05_extrato_pagamentos_medicos.html"><div class="card"><h2>Extrato de pagamentos a médicos</h2><p>Detalhe por médico, ano e mês, aprovado vs. pendente.</p></div></a></div></main></body></html>

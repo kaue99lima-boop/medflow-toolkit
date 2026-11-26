@@ -1,0 +1,32 @@
+item_id,category,description,unit_cost
+IT001,Descartáveis,Luva cirúrgica,4.28
+IT002,Descartáveis,Seringa 10 ml,7.03
+IT003,Descartáveis,Agulha 25x7,4.2
+IT004,Descartáveis,Gaze estéril,6.39
+IT005,Descartáveis,Cateter venoso,2.69
+IT006,Descartáveis,Equipo simples,7.03
+IT007,Descartáveis,Máscara cirúrgica,4.64
+IT008,Descartáveis,Campo cirúrgico,3.24
+IT009,Descartáveis,Sonda vesical,7.37
+IT010,Descartáveis,Atadura crepom,4.58
+IT011,Medicamentos,Analgésico injetável,13.64
+IT012,Medicamentos,Antibiótico profilático,14.71
+IT013,Medicamentos,Anestésico local,23.21
+IT014,Medicamentos,Soro fisiológico 500 ml,21.96
+IT015,Medicamentos,Antiemético,12.61
+IT016,Medicamentos,Anti-inflamatório,5.44
+IT017,Medicamentos,Heparina,7.94
+IT018,Medicamentos,Sedativo curto,5.01
+IT019,Medicamentos,Solução ringer,22.21
+IT020,Medicamentos,Antisséptico,25.18
+IT021,Implantes,Tela de hérnia,209.99
+IT022,Implantes,Parafuso ortopédico,367.33
+IT023,Implantes,Placa de fixação,823.65
+IT024,Implantes,Sutura mecânica,264.4
+IT025,Implantes,Clipe cirúrgico,194.04
+IT026,Implantes,Dreno tubular,671.29
+IT027,Serviços,Sala cirúrgica (hora),349.43
+IT028,Serviços,Diária de apartamento,342.02
+IT029,Serviços,Taxa de esterilização,445.39
+IT030,Serviços,Honorário de anestesia,110.89
+IT031,Serviços,Exame pré-operatório,338.12
