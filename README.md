@@ -4,6 +4,6 @@
 
 **ES:** Herramientas HTML (corren completas en el navegador) para la operación hospitalaria: estado de cuenta, presupuesto quirúrgico, supply (inventario + órdenes de compra), forecast de P&L y extracto de pagos a médicos y reporte diario (Sala de Guerra). Todos los datos son ficticios y las demos abren ya cargadas.
 
-Site / Sitio: https://kaue99lima-boop.github.io/Ferramentas-para-opera-o-hospitalar---toolkit/ (PT | ES)
+Site / Sitio: https://kaue99lima-boop.github.io/medflow-toolkit/ (PT | ES)
 
 Autor: Kauê Lima · [LinkedIn](https://www.linkedin.com/in/kauelimas/)
