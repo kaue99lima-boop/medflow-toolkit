@@ -1,0 +1,9 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Supply · Estoque e Compras · MedFlow Toolkit</title>
+<style>html,body{height:100%;margin:0;font:14px system-ui,sans-serif;background:#f6f7f9}body{display:flex;flex-direction:column}
+nav{display:flex;gap:8px;align-items:center;padding:10px 18px;background:#fff;border-bottom:1px solid #e5e7eb}
+nav b{margin-right:10px}nav a.back{margin-left:auto;color:#0f766e;text-decoration:none;font-size:13px}
+nav button{font:inherit;padding:7px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;cursor:pointer}
+nav button.on{background:#0f766e;color:#fff;border-color:#0f766e}iframe{flex:1;border:0;width:100%}</style></head><body>
+<nav><b>Supply</b><button class="on" data-s="03a_supply_painel_estoque.html">Painel de estoque</button><button data-s="03b_supply_ordens_de_compra.html">Ordens de compra</button><a class="back" href="../index.html">← MedFlow Toolkit</a></nav>
+<iframe id="f" src="03a_supply_painel_estoque.html" title="Supply"></iframe>
+<script>document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));document.getElementById('f').src=b.dataset.s})</script></body></html>
