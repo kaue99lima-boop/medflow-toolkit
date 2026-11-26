@@ -1135,14 +1135,7 @@ function top8OtrosMultiMonth(store, monthKeys, sortField) {
   }
   return { months: monthKeys, monthLabels: monthKeys.map(monthLabel), rows };
 }
-const INSURER_ALIASES = {
-  "ASSA COMPAÑIA DE SEGUROS": "ASSA COMPAÑIA DE SEGUROS, S.A.",
-  "MAPFRE PANAMA.S.A.": "MAPFRE PANAMA,S.A.",
-  "PANAMERICAN LIFE INSURANCE PANAMA S.A.": "PAN AMERICAN LIFE INSURANCE DE PANAMA",
-  "SEGUROS FEDPA, S.A. . .": "SEGUROS FEDPA",
-  "VIVIR SEGUROS": "VIVIR SEGUROS PANAMA",
-  "BUPA PANAMA": "ASEGURADORA BUPA",
-};
+const INSURER_ALIASES = {};
 function remapInsurerKeys(store) {
   const out = {};
   for (const [name, val] of Object.entries(store)) {
