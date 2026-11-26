@@ -624,7 +624,7 @@ function loadFromDet(q){
 }
 
 /* ---------- Cálculo de precios ---------- */
-function isJub(cat){return /JUUS$test(up(cat))}
+function isJub(cat){return /JUB/.test(up(cat))}
 function calc(items,useOrig,cfg,horas,hb,cat){
   cfg=cfg||(Q?Q.cfg:S);horas=horas||(Q?+$('fHoras').value:2);hb=hb||(Q?(+$('fHB').value||2):2);cat=cat||(Q?$('fCat').value:'');
   var jub=isJub(cat);
